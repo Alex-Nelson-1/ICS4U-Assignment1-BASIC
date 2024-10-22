@@ -28,7 +28,7 @@
 370 LET P = P + 1
 380 LET M2 = L(P)
 390 PRINT
-400 PRINT "YOU: "; LEFT$(CHR$(M1), 2); " COMPUTER: "; LEFT$(CHR$(M2), 2)
+400 PRINT "YOU: "; LEFT$(CHR$(M1), 2); " ("; INT((M1 - 53) / 4) + 2; ")"; " COMPUTER: "; LEFT$(CHR$(M2), 2); " ("; INT((M2 - 53) / 4) + 2; ")"
 410 LET N1 = INT((M1 - 53) / 4)
 420 LET N2 = INT((M2 - 53) / 4)
 430 IF N1 > N2 THEN 460
